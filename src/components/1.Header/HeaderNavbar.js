@@ -40,6 +40,8 @@ const ListItem = styled.li`
   font-size: 1rem;
   text-align: center;
   color: black;
+  margin-top: 10px;
+  margin-right: 40px;
   padding: 10px 10px;
   :hover {
     border: 0.75px solid #fad648;
@@ -112,6 +114,7 @@ function HeaderNavbar(props) {
     console.log("elo");
     props.history.push("/registration");
   }
+
   return (
     <>
       <NavbarSection>
