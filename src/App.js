@@ -6,6 +6,7 @@ import Logout from "./components/1.Header/Logout";
 import Registration from "./components/1.Header/Registration";
 
 import "./App.css";
+import "././scss/normalize.css";
 
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 

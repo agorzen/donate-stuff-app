@@ -1,20 +1,33 @@
 import React from "react";
 // import styled, { css } from "styled-components";
 import styled from "styled-components";
+import Navbar from "./HeaderNavbar";
+import { NavLink, withRouter } from "react-router-dom";
+import bg from "../../assets/assets/Home-Hero-Image.jpg";
 
-const Hello = styled.p`
-  font-size: 30px;
+const Space = styled.div`
+  height: 963px;
+  width: 100%;
+  float: left;
 `;
+//hero-img:
+const Hero = styled.img`
+  background: url(${bg}) no-repeat center/cover;
+  height: 963px;
+  width: 885px;
+`;
+
+const NavBarWithRouter = withRouter(Navbar);
+
 function Header() {
   return (
     <>
-      <Hello>hello</Hello>
+      <Space>
+        <Hero />
+        <NavBarWithRouter />
+      </Space>
     </>
   );
 }
-
-// function Navbar(props) {
-//   return <></>;
-// }
 
 export default Header;
