@@ -1,3 +1,25 @@
+# Donate-Stuff-App - work in progress
+
+Project is based on the idea of creating an app which let you donate your stuff - gently used items for charity;
+
+# Play:
+
+Here will be the url;
+
+# Controls:
+
+npm install
+
+# Technologies:
+
+React.js /React-Router /React-Scroll /json
+
+# Features:
+
+# To do:
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
