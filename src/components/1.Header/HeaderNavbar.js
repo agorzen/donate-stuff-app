@@ -45,7 +45,6 @@ const ListItem = styled.li`
     border: 0.75px solid #fad648;
   }
 `;
-
 const OlList = styled.ol`
   top: 90px;
   width: 683px;

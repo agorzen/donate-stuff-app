@@ -13,8 +13,8 @@ const Space = styled.div`
 //hero-img:
 const Hero = styled.img`
   background: url(${bg}) no-repeat center/cover;
-  height: 963px;
-  width: 885px;
+  height: 100%;
+  width: 50%;
 `;
 
 const NavBarWithRouter = withRouter(Navbar);

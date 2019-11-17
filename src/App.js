@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Login from "./components/1.Header/Login";
 import Logout from "./components/1.Header/Logout";
 import Registration from "./components/1.Header/Registration";
+import Error from "./components/NotFound-404";
 
 import "./App.css";
 import "././scss/normalize.css";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/registration" component={Registration} />
         <Route path="/logout" component={Logout} />
+        <Route path="/error404" component={Error} />
       </Switch>
     </Router>
   );
