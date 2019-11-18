@@ -38,6 +38,7 @@ const ListItem = styled.li`
   width: 100%;
   margin: 10%;
   font-size: 1rem;
+  list-style: none;
   text-align: center;
   color: black;
   margin-top: 10px;
@@ -62,6 +63,8 @@ const OlListItem = styled.li`
   height: 24px;
   font-size: 18px;
   text-align: center;
+  list-style: none;
+  text-decoration-line: none;
   padding: 10px 10px;
   :hover {
     border: 0.75px solid #fad648;
@@ -97,6 +100,7 @@ const Button = styled.button`
   color: rgba(0, 0, 0, 0.7);
   :hover {
     border: 0.75px solid #fad648;
+    color: black;
   }
 `;
 const Package = styled.div`
