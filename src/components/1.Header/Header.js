@@ -2,6 +2,7 @@ import React from "react";
 // import styled, { css } from "styled-components";
 import styled from "styled-components";
 import Navbar from "./HeaderNavbar";
+
 import { NavLink, withRouter } from "react-router-dom";
 import bg from "../../assets/assets/Home-Hero-Image.jpg";
 
