@@ -9,7 +9,7 @@ import JsonSection from "././5.JsonSection/JsonSection";
 import ContactForm from "././6.ContactForm/ContactForm";
 import Footer from "././7.Footer/Footer";
 
-//ThreeColumns - component:
+//ThreeColumns - component - array:
 const items = [
   {
     number: "10",
@@ -31,12 +31,31 @@ const items = [
   }
 ];
 
+//FourColumns - component - array:
+const itemsNext = [
+  {
+    title: "Wybierz rzeczy",
+    description: "ubrania, zabawki, sprzęt i inne"
+  },
+  {
+    title: "Spakuj je",
+    description: "skorzystaj z worków na śmieci"
+  },
+  {
+    title: "Zdecyduj komu chcesz pomóc",
+    description: "wybierz zaufane miejsce"
+  },
+  {
+    title: "Zamów kuriera",
+    description: "kurier przyjedzie w dogodnym terminie"
+  }
+];
 function Home() {
   return (
     <>
       <Header />
       <ThreeColumns items={items} />
-      <FourColumns />
+      <FourColumns itemsNext={itemsNext} />
       <AboutUs />
       <JsonSection />
       <ContactForm />

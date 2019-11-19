@@ -1,9 +1,6 @@
 import React from "react";
 
 import styled from "styled-components";
-// function ThreeColumns() {
-//   return <></>;
-// }
 
 const Space = styled.div`
   width: 100%;
