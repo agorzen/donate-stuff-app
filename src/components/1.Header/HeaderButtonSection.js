@@ -1,9 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-
-import { Link } from "react-scroll"; //menu dolne
-import { NavLink, withRouter } from "react-router-dom";
 import decoration from "../../assets/assets/Decoration.svg";
+// import Navbar from "./HeaderNavSection";
+import { NavLink, withRouter } from "react-router-dom";
+
+const options = {
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  offset: 50,
+  duration: 500
+};
 
 //decoration.svg:
 const Decoration = styled.img`
@@ -51,15 +58,6 @@ const Package = styled.div`
   justify-content: space-around;
 `;
 function HeaderButtonSection(props) {
-  function handleFirstButtonClick() {
-    console.log("hello");
-    props.history.push("/login");
-  }
-  function handleSecondButtonClick() {
-    console.log("elo");
-    props.history.push("/registration");
-  }
-
   return (
     <ButtonSection>
       <Title>
@@ -70,14 +68,18 @@ function HeaderButtonSection(props) {
       </Title>
       <Decoration />
       <Package>
-        <Button onClick={handleFirstButtonClick}>
-          oddaj <br />
-          rzeczy
-        </Button>
-        <Button onClick={handleSecondButtonClick}>
-          zorganizuj
-          <br /> zbiórkę
-        </Button>
+        <NavLink to="/login" {...options}>
+          <Button>
+            oddaj <br />
+            rzeczy
+          </Button>
+        </NavLink>
+        <NavLink to="/registration" {...options}>
+          <Button>
+            zorganizuj
+            <br /> zbiórkę
+          </Button>
+        </NavLink>
       </Package>
     </ButtonSection>
   );

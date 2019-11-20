@@ -1,7 +1,7 @@
 import React from "react";
-// import styled, { css } from "styled-components";
+
 import styled from "styled-components";
-import Navbar from "./HeaderNavbar";
+import HeaderRightSection from "./HeaderRightSection";
 
 import { NavLink, withRouter } from "react-router-dom";
 import bg from "../../assets/assets/Home-Hero-Image.jpg";
@@ -18,14 +18,14 @@ const Hero = styled.img`
   width: 50%;
 `;
 
-const NavBarWithRouter = withRouter(Navbar);
+const RightSection = withRouter(HeaderRightSection);
 
 function Header() {
   return (
     <>
       <Space>
         <Hero />
-        <NavBarWithRouter />
+        <RightSection />
       </Space>
     </>
   );

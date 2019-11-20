@@ -3,7 +3,7 @@ import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
 
 import { NavLink, withRouter } from "react-router-dom";
-import HeaderNavbar from "./HeaderNavbar";
+// import HeaderNavbar from "./HeaderRightSection";
 
 const options = {
   activeClass: "active",
