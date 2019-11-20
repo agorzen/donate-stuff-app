@@ -19,6 +19,7 @@ const Space = styled.div.attrs({
   width: 100%;
   background: white;
 `;
+
 const Container = styled.div`
   width: 100%;
   width: 499px;
@@ -191,7 +192,7 @@ class Registration extends Component {
             <NavLink to="/" {...options}>
               <Send>Zaloguj się</Send>
             </NavLink>
-            <NavLink to="/" {...options}>
+            <NavLink to="/logout" {...options}>
               <Send>Załóż konto</Send>
             </NavLink>
           </Buttons>

@@ -2,6 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
 import Navbar from "./HeaderNavSection";
+import { NavLink, withRouter } from "react-router-dom";
+
+const options = {
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  offset: 50,
+  duration: 500
+};
+
 const Space = styled.div.attrs({
   id: "logout"
 })`
@@ -61,7 +71,9 @@ function Logout() {
         </Title>
         <Decoration />
         <Buttons>
-          <Send>Strona główna</Send>
+          <NavLink to="/" {...options}>
+            <Send>Strona główna</Send>
+          </NavLink>
         </Buttons>
       </Container>
     </Space>
