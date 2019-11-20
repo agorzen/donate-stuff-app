@@ -3,6 +3,7 @@ import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
 
 import { NavLink, withRouter } from "react-router-dom";
+import HeaderNavbar from "./HeaderNavbar";
 
 const options = {
   activeClass: "active",
@@ -143,6 +144,7 @@ class Login extends Component {
     const { password, email, errors, user } = this.state;
     const form = (
       <Space>
+        {/* <HeaderNavbar /> */}
         <Container>
           <Title>Zaloguj się</Title>
           <Decoration />
