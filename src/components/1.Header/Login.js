@@ -3,7 +3,7 @@ import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
 
 import { NavLink, withRouter } from "react-router-dom";
-// import HeaderNavbar from "./HeaderRightSection";
+import Navbar from "./HeaderNavSection";
 
 const options = {
   activeClass: "active",
@@ -16,14 +16,16 @@ const options = {
 const Space = styled.div.attrs({
   id: "login"
 })`
-  width: 100%;
-  height: 963px;
   background: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  width: 100%;
 `;
 const Container = styled.div`
+  /* display: flex; */
+  width: 100%;
+  height: 963px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
   width: 499px;
   height: 963px;
 `;
@@ -144,7 +146,7 @@ class Login extends Component {
     const { password, email, errors, user } = this.state;
     const form = (
       <Space>
-        {/* <HeaderNavbar /> */}
+        <Navbar />
         <Container>
           <Title>Zaloguj się</Title>
           <Decoration />

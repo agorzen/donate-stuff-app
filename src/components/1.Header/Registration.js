@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
-// import HeaderLogin from "./Login";
-// import HomeHeader from "./Header";
 
+import Navbar from "./HeaderNavSection";
 import { NavLink, withRouter } from "react-router-dom";
 
 const options = {
@@ -18,15 +17,16 @@ const Space = styled.div.attrs({
   id: "registration"
 })`
   width: 100%;
-  height: 963px;
   background: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 `;
 const Container = styled.div`
+  width: 100%;
   width: 499px;
   height: 963px;
+  height: 963px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 `;
 const Title = styled.div`
   font-size: 30px;
@@ -149,6 +149,7 @@ class Registration extends Component {
     const { password, passwordrepeat, email, errors, user } = this.state;
     const form = (
       <Space>
+        <Navbar />
         <Container>
           <Title>Załóż konto</Title>
           <Decoration />

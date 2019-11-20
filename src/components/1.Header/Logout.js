@@ -1,18 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import decoration from "../../assets/assets/Decoration.svg";
-
+import Navbar from "./HeaderNavSection";
 const Space = styled.div.attrs({
   id: "logout"
 })`
   width: 100%;
-  height: 963px;
   background: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 `;
 const Container = styled.div`
+  width: 100%;
+  height: 963px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
   width: 499px;
   height: 963px;
 `;
@@ -53,6 +54,7 @@ const Send = styled.button`
 function Logout() {
   return (
     <Space>
+      <Navbar />
       <Container>
         <Title>
           Wylogowanie nastąpiło <br /> pomyślnie!
