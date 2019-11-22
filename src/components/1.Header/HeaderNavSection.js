@@ -21,17 +21,21 @@ const UlList = styled.ul`
 `;
 const ListItem = styled.li`
   height: 24px;
-  width: 100%;
+  width: 80%;
   margin: 10%;
   font-size: 1rem;
   list-style: none;
   text-align: center;
   color: black;
   margin-top: 10px;
-  margin-right: 40px;
+  margin-right: 50px;
   padding: 10px 10px;
+  border: ${props =>
+    props.primary ? "1px solid #fad648" : "1px solid transparent"};
   :hover {
     border: 0.75px solid #fad648;
+    border: ${props =>
+      props.primary ? "1px solid transparent " : "1px solid #fad648"};
   }
 `;
 const OlList = styled.ol`
@@ -65,7 +69,7 @@ function Navbar(props) {
           <ListItem>Zaloguj</ListItem>
         </NavLink>
         <NavLink to="/registration" {...options}>
-          <ListItem>Załóż konto</ListItem>
+          <ListItem primary>Załóż konto</ListItem>
         </NavLink>
       </UlList>
       <OlList>

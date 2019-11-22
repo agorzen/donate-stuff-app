@@ -98,7 +98,6 @@ class Registration extends Component {
       user: false
     };
   }
-
   handleEmailChange = e => {
     this.setState({
       email: e.target.value
