@@ -1,0 +1,67 @@
+{
+  "fundations": [
+    {
+      "name": "Fundacjom",
+      "desc": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić, czym się zajmują, komu pomagają i czego potrzebują.",
+      "items": [
+        {
+          "header": "Fundacja Dbam o zdrowie",
+          "subheader": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "textright": "ubrania, jedzenie, sprzęt AGD, małe zabawki"
+        },
+        {
+          "header": "Fundacja Dla dzieci",
+          "subheader": "Cel i misja: Pomoc dzieciom z ubogich rodzin",
+          "textright": "ubrania, meble, zabawki"
+        },
+        {
+          "header": "Fundacja Bez domu",
+          "subheader": "Cel i misja: Pomoc dla osób nieposiadających miejsca zamieszkania",
+          "textright": "ubrania, jedzenie, ciepłe koce"
+        }
+      ]
+    },
+    {
+      "name": "Organizacjom pozarządowym",
+      "desc": "Lorem ipsum dolor sit amet, consecteur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad, minim venian, quis nostrud exercitation.",
+      "items": [
+        {
+          "header": "Fundacja Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        },
+        {
+          "header": "Fundacja Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        },
+        {
+          "header": "Fundacja Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        }
+      ]
+    },
+    {
+      "name": "Lokalnym zbiórkom",
+      "desc": "Lorem ipsum dolor sit amet, consecteur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad, minim venian, quis nostrud exercitation.",
+      "items": [
+        {
+          "header": "Zbiórka Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        },
+        {
+          "header": "Zbiórka Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        },
+        {
+          "header": "Zbiórka Lorem Ipsum",
+          "subheader": "Cel i misja: lorem ipsum",
+          "textright": "lorem, lorem, lorem"
+        }
+      ]
+    }
+  ]
+}
