@@ -3,10 +3,10 @@ import styled from "styled-components";
 // import { NavLink, withRouter } from "react-router-dom";
 
 import { Link } from "react-scroll";
-import formphoto from "../assets/assets/Background-Contact-Form.jpg";
-import decoration from "../assets/assets/Decoration.svg";
-import facebook from "../assets/assets/Facebook.svg";
-import instagram from "../assets/assets/Instagram.svg";
+import formphoto from "../../assets/assets/Background-Contact-Form.jpg";
+import decoration from "../../assets/assets/Decoration.svg";
+import facebook from "../../assets/assets/Facebook.svg";
+import instagram from "../../assets/assets/Instagram.svg";
 
 const options = {
   activeClass: "active",
