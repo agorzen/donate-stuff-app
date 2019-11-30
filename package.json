@@ -38,5 +38,16 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
+  },
+  "description": "Project is based on the idea of creating an app which let you donate your stuff - gently used items for charity;",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agorzen/donate-stuff-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agorzen/donate-stuff-app/issues"
   }
 }
