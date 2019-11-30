@@ -3,6 +3,15 @@ import styled from "styled-components";
 
 import facebook from "../../assets/assets/Facebook.svg";
 import instagram from "../../assets/assets/Instagram.svg";
+import { NavLink, withRouter } from "react-router-dom";
+
+const options = {
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  offset: 50,
+  duration: 500
+};
 
 const FooterComp = styled.div`
   width: 50%;
@@ -39,8 +48,12 @@ function Footer() {
       <FooterComp>
         <Copyrighted>Copyright by CodersLab</Copyrighted>
         <Social>
-          <Facebook />
-          <Instagram />
+          <NavLink to="/notfound" {...options}>
+            <Facebook />
+          </NavLink>
+          <NavLink to="/notfound" {...options}>
+            <Instagram />
+          </NavLink>
         </Social>
       </FooterComp>
     </>

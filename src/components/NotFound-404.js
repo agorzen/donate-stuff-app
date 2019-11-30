@@ -1,5 +1,4 @@
 import React from "react";
-// import styled, { css } from "styled-components";
 import styled from "styled-components";
 
 import { NavLink, withRouter } from "react-router-dom";
@@ -18,12 +17,13 @@ const Space = styled.div`
   text-align: center;
 `;
 const Error = styled.p`
+  margin-top: 200px;
   font-size: 50px;
   text-align: center;
   width: 100%center;
 `;
 const Button = styled.button`
-  margin-top: 80px;
+  margin-top: 40px;
   width: 310px;
   height: 120px;
   text-align: center;
@@ -41,11 +41,12 @@ const Button = styled.button`
 function NotFound() {
   return (
     <Space>
-      <Error>404</Error>
-      <Error>Not Found</Error>
-      <NavLink to="/" {...options}></NavLink>
-      <Button>HOME</Button>
-      <NavLink />
+      <Error>
+        404 <br /> Not Found{" "}
+      </Error>
+      <NavLink to="/" {...options}>
+        <Button>HOME</Button>
+      </NavLink>
     </Space>
   );
 }
