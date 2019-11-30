@@ -19,7 +19,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/registration" component={Registration} />
         <Route path="/logout" component={Logout} />
-        <Route component={Error} />
+        <Route path="/notfound" component={Error} />
       </Switch>
     </Router>
   );

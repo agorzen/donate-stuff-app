@@ -1,5 +1,4 @@
 import React from "react";
-// import styled from "styled-components";
 
 import Header from "././1.Header/Header";
 import ThreeColumns from "././2.ThreeColumns/ThreeColumns";
